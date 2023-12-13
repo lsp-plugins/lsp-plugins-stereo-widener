@@ -50,6 +50,7 @@
 									<listOptionValue builtIn="false" value="LSP_TRACE"/>
 									<listOptionValue builtIn="false" value="LSP_IDE_DEBUG"/>
 									<listOptionValue builtIn="false" value="USE_LIBSNDFILE"/>
+									<listOptionValue builtIn="false" value="USE_LIBJACK"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.dialect.std.197954724" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++11" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.other.other.254051967" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 $(shell pkg-config --cflags jack x11 cairo lv2 sndfile gl freetype2 xrandr)" valueType="string"/>
@@ -132,7 +133,7 @@
 					</fileInfo>
 					<fileInfo id="cdt.managedbuild.config.gnu.exe.debug.619973679.829819011" name="sse4.cpp" rcbsApplicability="disable" resourcePath="modules/lsp-dsp-lib/src/main/x86/sse4.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.162163419.1944330499">
 						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.162163419.1944330499" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.162163419">
-							<option id="gnu.cpp.compiler.option.other.other.1465851297" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -msse4 -msse4a" valueType="string"/>
+							<option id="gnu.cpp.compiler.option.other.other.1465851297" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -msse4 -msse4a" valueType="string"/>
 							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.176675005" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 						</tool>
 					</fileInfo>
@@ -217,7 +218,7 @@
 					</fileInfo>
 					<fileInfo id="cdt.managedbuild.config.gnu.exe.release.1298618321.586668062" name="sse4.cpp" rcbsApplicability="disable" resourcePath="modules/lsp-dsp-lib/src/main/x86/sse4.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.442760585.749979734">
 						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.442760585.749979734" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.442760585">
-							<option id="gnu.cpp.compiler.option.other.other.1289665756" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -msse4 -msse4a" valueType="string"/>
+							<option id="gnu.cpp.compiler.option.other.other.1289665756" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -msse4 -msse4a" valueType="string"/>
 							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.492759813" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 						</tool>
 					</fileInfo>
