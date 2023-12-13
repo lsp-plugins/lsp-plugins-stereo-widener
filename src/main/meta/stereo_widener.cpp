@@ -102,6 +102,7 @@ namespace lsp
         {
             "Pluginschablone Mono",
             "Plugin Template Mono",
+            "Plugin Template Mono",
             "PS1M",
             &developers::v_sadovnikov,
             "stereo_widener_mono",
@@ -125,6 +126,7 @@ namespace lsp
         const plugin_t stereo_widener_stereo =
         {
             "Pluginschablone Stereo",
+            "Plugin Template Stereo",
             "Plugin Template Stereo",
             "PS1S",
             &developers::v_sadovnikov,
